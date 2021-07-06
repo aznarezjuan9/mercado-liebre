@@ -1,8 +1,8 @@
 
-
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #ebebeb ;
+    margin: 0px;
 }
 
 header{
@@ -24,7 +24,44 @@ header{
     width:100%; 
     height:auto;
 }
-
+.texto-productos{
+    margin: 5%;
+    font-size: 150%;
+    text-align: left;
+}
+.productos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ccc;
+}
+.cajas{
+    flex: 1 1 300px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, .3);
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+}
+.cajas:hover{
+    box-shadow: 0px 0px 10px rgb(0,0,0,0.1);
+}
+.imagen-producto{
+    padding: 10px;
+    background: #eee;
+    text-align: center;
+}
+.imagen-producto img{
+    height: 330px;
+    width: 280px;
+    object-fit: cover;
+    filter: drop-shadow(0 3px 5px rgba(0,0,0,.7));
+}
+.descuento{
+    color: green;
+}
+/*
 .descrip{
     
         display: block;
@@ -35,7 +72,7 @@ header{
         right:20px;
         top:-15px;
 }
-
+*/
 
 
 
@@ -53,6 +90,7 @@ header{
     padding-left: 40px;
     width: width-device;
 }
+/*
 .precios{
     font-size: 18px;
     text-align: left;
@@ -65,18 +103,20 @@ header{
     color: green;
 
 }
+*/
 ::placeholder{
     color: grey;
     font-size: 1em;
     font-style: italic;
 }
 
-
+/*
 .descrip{
     font-size: 16px;
     text-align: left;
     margin: 15px;
 }
+*/
 .fa-credit-card{
     font-size: 25px;
     color: #001adb;
@@ -92,51 +132,13 @@ header{
     color: #001adb;
     text-align: center;
 }
-.macbook{
-    background-color: white; 
-    border-top: 1px; 
-    border-style: solid; 
-    border-color: #ebebeb;
-    box-sizing: border-box;
 
-    
-}
-.samsung{
-    background-color: white; 
-    border-top: 1px; 
-    border-style: solid; 
-    border-color: #ebebeb;
-    box-sizing: border-box;
-
-}
-.cafetera{
-    background-color: white; 
-    border-top: 1px; 
-    border-style: solid; 
-    border-color: #ebebeb;
-    box-sizing: border-box;
-
-}
-.tv{
-    background-color: white; 
-    border-top: 1px; 
-    border-style: solid; 
-    border-color: #ebebeb;
-    box-sizing: border-box;
-}
 #pieDePagina{
     display: flex;
     box-sizing: border-box;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 2vw;
-}
-.cajas{
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-wrap: wrap;
-    
 }
 .fa-bars{
    
@@ -182,20 +184,13 @@ header{
     .cajas:hover{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
-    .cajas{
-        
-        margin: 1.5vw;
-        
 
-    }
-    
     .menu{
         display: flex;
         flex-direction: row;
         justify-content:space-between;
-        
         box-sizing: border-box;
-        }
+    }
     .fa-bars{
         visibility: hidden;
     }
@@ -206,12 +201,12 @@ header{
         box-sizing: border-box;
     }
     #buscador{
-        margin-top: 11vh;
+        margin-top: 7vh;
     }
     #cuotas{
-        margin-top: 11vh;
+        margin-top: 7vh;
     }
-    .productos{
+/*    .productos{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -221,6 +216,7 @@ header{
         margin-left: 1vw;
         
     }
+*/
     .titulares{
         text-align: left;
         padding-left: 5vw;
