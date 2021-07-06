@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>2do trabajo individual</title>
+        <title>Mercado Liebre</title>
         <link rel="stylesheet" href="/css/style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
@@ -10,34 +10,34 @@
     </head>
 
 <body>
-    <header>
-    <div id="encabezado">
-    
-        <h1 class="logo"><img src="/img/logo-mercado-liebre.svg" width="200px" height="150px"> </img></h1>
-        <p id="buscador" ><input type="text" style="width: 300px;" placeholder="Buscar tus productos, marcas.."/><i class="fas fa-search"></i></p>
+<header id="encabezado">
+    <div class="logo-buscador">
+        <a href="/"><img src="/img/logo-mercado-liebre.svg" class="logo"> </img></a>
 
-        <br></br>
-        <p id="cuotas"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+        <div id="buscador"><input type="text" placeholder="Buscar tus productos, marcas.."/></i></div>
+
+        <h2 id="cuotas"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</h2>
     </div>
-    <br></br>
+    <i class="fas fa-bars"></i>
     
-    
-    <ul class="menu">
+<nav class="menu">
+    <ul class="menu-izquierda">
        <li>Ofertas</li>
        <li>Tiendas oficiales</li>
        <li>Vender</li>
        <li>Ayuda</li>
-       <br></br>
-       <li>Creá tu cuenta <i class="far fa-id-card"></i></li>
-       <li>Ingresá <i class="fas fa-sign-in-alt"></i></li>
-       <li>Mis compras <i class="fas fa-shopping-basket"></i></li>
     </ul>
+    <ul class="menu-derecha">
+       <li><a href="/register"> Crea tu cuenta <i class="far fa-id-card"></i></a></li>
+       <li><a href="/login"> Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+       <li><a href="">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
+    </ul>
+</nav>
+</header>   
+<img id="banner" src="/img/img-home-banner.jpg" > </img>
 
-    <i class="fas fa-bars" style="padding-left: 100px; color:#03264C;"></i>
-    </header>   
+<main style="text-align: center;  background-color: whitesmoke;">
     
-    <main style="text-align: center;  background-color: whitesmoke;">
-    <img id="banner" src="/img/img-home-banner.jpg" > </img>
 
     <h4 class="titulares">Basado en tus últimas visitas</h4>
     <div class="productos">
