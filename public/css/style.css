@@ -73,7 +73,7 @@ header{
     padding: 7px;
     position: absolute;
     right: 20px;
-    bottom: 50px;
+    bottom: 20px;
     background-color: #fff;
 }
 .fa-truck{
@@ -291,7 +291,13 @@ header{
     font-weight: bold;
     }
     }
-
+.descrip{
+    display: none;
+}
+main div div div:hover .descrip{
+    display: block;
+    border:none
+}
 @media (max-width: 360px){
     .descrip{
         display: none;
