@@ -86,7 +86,6 @@ header{
 #descrip:hover .descrip{
     display: block;
 
-
 }
 .productos{
     display: flex;
@@ -203,6 +202,9 @@ header{
     align-items: center;
     margin-left: 0px;
     margin-bottom: 10px;
+}
+.botones-formulario:hover{
+    background-color: #0022AA;
 }
 .form-login{
     display: flex;
